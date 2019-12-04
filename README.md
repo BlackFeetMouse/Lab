@@ -1,4 +1,4 @@
-# sport Projects
+# Sport Projects
 
 ### Team Power Ranking Visualization -- power_ranking
 To create the graph which can visualizes NBA 19-20 season all thirty teams' the [offensive efficiency(OEFF)](https://www.nbastuffer.com/analytics101/offensive-efficiency/) and [defensive effiency(DEFF)](https://www.nbastuffer.com/analytics101/defensive-efficiency/)
