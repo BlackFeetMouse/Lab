@@ -61,5 +61,26 @@ Characteristics:
 - One of the participants analyze some players‘ abnormal performances.
 - One of the participants gave the summary in the structure of analyzing different factors of box score data.
 
+***Combined text in terms of four summaries***
+
+>The Mavs finished the Lakers’ 10-game winning streak with a 114-100 victory.
+>
+>Doncic from the Mavs and Davis from the Lakers had the highest 27 points following by Lebron from the Lakers with 25 points. >Doncic had the highest 10 assists among two teams. Both of the lead players in two teams (Lebron and Doncic) had many >turnovers. Kuzma from the Lakers and Green from the Lakers had low field-goal-percentage.
+>
+>The field goal attempts and field-goal percentage of two teams are similar, but, comparing with the Mavs’ 17 three-pointers >out of 49 attempts, the Lakers only accomplished 7 three-pointers out of 27 attempts. The Lakers had bad perimeter defense >on this game to give Mavs so many three-pointers shooting chances. Lakers had more turnovers than Mavs. Besides, Mavs had 16 >offensive rebounds while Lakers only had 9. Perhaps these flaws lead Lakers to loss. 
+
+***Simplified text***
+
+>The Mavs beat the Lakers with a 114-100 victory.
+>
+>Doncic and Davis had the highest 27 points following by Lebron with 25 points. 
+>Doncic had the highest 10 assists among two teams. Lebron and Doncic had many turnovers. Kuzma and Green had low field-goal->percentage.
+>
+>The field goal attempts and field-goal percentage of two teams are similar. Comparing with the Mavs’ 17 three-pointers out of >49 attempts, the Lakers only accomplished 7 three-pointers out of 27 attempts. The Lakers had bad perimeter defense. Lakers >had more turnovers than Mavs. Mavs had 16 offensive rebounds while Lakers only had 9. These flaws lead Lakers to loss. 
+
+- Delet some conjunction words
+- Delet texts which requair former match data
+- Simplify some sentences with some basic grammar
+
 
 
