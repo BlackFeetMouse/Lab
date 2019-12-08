@@ -1,0 +1,334 @@
+
+
+@font-face {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+hr{
+  height:2px;
+  border-width:0;
+  color:gray;
+  background-color:gray
+}
+
+#logo { 
+    float:right;
+    display: block;
+    padding-left: 10px;
+    /* padding-right: 5px; */
+    padding-top: 5px;
+    /* font-size: 30px; */
+    /* color: white; */
+}
+
+.navbar {
+    position: fixed;
+    margin: 0 auto;
+    top: 65px;
+    width: 100%;
+    height: 50px;
+    z-index: 10;
+    background-color: #16ad1b;
+}
+.rowHeader{
+    width: 1190px;
+    padding-bottom: 10px;
+    /* text-align:left; */
+    margin: auto;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.header {
+    position: fixed;
+    color: black;
+    top: 0;
+    z-index: 22;
+    height: 65px;
+    width: 100%;
+    background-color: #16ad1b;
+}
+
+body
+{
+    margin: 100px auto;
+    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+    color: black;
+    font-size: 12pt;
+    text-align: justify;
+    line-height: 1.8;
+    height:100%;
+    background-color:white;
+}
+p {
+    text-align: justify;   
+}
+a{
+  color: black;
+}
+a:hover{
+  color: DodgerBlue;
+}
+#contact{
+   font-size: 12pt;
+}
+.title {
+    /*background-color: #F1F1F1;*/
+    font-size: 24pt;
+    font-weight: bold;
+    height: 100px;
+    vertical-align: middle;
+    text-align: left;
+  
+}
+
+.leftcolumnHeader {
+    float: left;
+    width: 60%; 
+    height: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: right;
+
+}
+.rightcolumnHeader {
+    float: left;
+    width: 40%;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+
+.row{
+    width: 1190px;
+    margin: 0 auto;
+    /*overflow: auto;*/
+    height:100%;
+/*    background-color: #66ffff;*/
+}
+/* Left column */
+.leftcolumn { 
+    margin-top: 22px;
+    float: left;
+    width: 50.8%; 
+    /*    
+    padding-left: 10px;
+    padding-right: 20px;*/
+    text-align: center;
+    /* border-style: solid;
+    border-width: 1px; */
+}
+/* Right column */
+.rightcolumn {
+    /*margin-right: 200px;*/
+    float: left;
+    width: 48%;
+    /*background-color: #f1f1f1;*/
+   /* padding-top: 22px; */
+    padding-left: 20px;
+    padding-right: 10px;
+    /*max-height: 1000px;*/
+    height:100%;
+    /*overflow: auto;*/
+
+/*    border-style: solid;
+    border-width: 1px;*/
+
+}
+/* Clear floats after the columns */
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.footer li {
+    float: left;
+}
+
+.footer li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#disclaimer{
+   display: block;
+   color: black;
+
+}
+
+.footer li a:hover:not(.active) {
+   color: DodgerBlue;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 35px;
+    color: black;
+    vertical-align: middle;
+    line-height: 5px;  
+    font-size: 08pt;
+    border-top: 1px solid #16ad1b;
+    background-color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
+
+/* stylesheet for your custom graph */
+.legend {
+  position:absolute;
+  left:20px;
+  top:30px;
+}
+.dots{
+  /*fill: #f44242;*/
+  opacity: 0.8;
+}
+
+.axis text {
+  font: 10px sans-serif;
+}
+
+.axis line, .axis path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+.legend-text{
+  font-size: 10px; 
+
+}
+
+div.tooltip {   
+  position: absolute;           
+  text-align: left;
+  display: inline-block;          
+  /* width: 150px;                  
+  height: 35px;                  */
+  padding: 2px;             
+  font-size: 12px;     
+  background: #fefff9;
+  border-color: #000;  
+  pointer-events: none;  
+  z-index: 90;
+}
+.rID {
+  font-weight: bold;
+}
+
+.rID:hover{
+  color: DodgerBlue;
+  cursor: pointer;
+
+}
+/* Info icon and info text in the visualization */
+.infoIcon {
+    font-size: 10px; 
+}
+.infoIcon:hover {
+  fill: DodgerBlue;
+  cursor: pointer;
+}
+
+.infoText{
+  font-size: 10px; 
+  font-weight: italic;
+}
+/*
+.infoText:hover{
+  fill: DodgerBlue;
+  cursor: pointer;
+
+}*/
+
+.infoIcon.green { fill: #00cc00; }
+
+/* info icon in the text */
+.moreInfoIcon:hover {
+    fill: DodgerBlue;
+    cursor: pointer;
+  }
+
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: #16ad1b;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 75px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 14px;
+    color:#ffffff;
+    display: block;
+    /* transition: 0s; */
+}
+
+.sidenav a:hover {
+    /* font-weight: bold; */
+    color: black;
+    cursor: pointer;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+#sideBarBtn{
+    padding-left: 5px;
+    font-size:30px;
+    cursor:pointer;
+    color: white;
+    align-content: center;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/* .exampleSwitch:hover{
+    cursor: pointer;
+} */
+
+svg {
+    display: inline-block;
+     vertical-align: middle;
+  }
+
+span mySpan {
+    display: inline-block;
+    width: 50px;
+}
