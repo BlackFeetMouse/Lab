@@ -19,6 +19,6 @@ to interpret the code and deliver the results.
 python3 -m http.server 8080
 
 # 8080 is one of the ports, we can also choose another port if port 8080 is being used currently (e.g. python3 -m http.server 8000)
-# Then we can go to this server by going to the URL localhost:80080
+# Then we can go to this server by going to the URL localhost:8080
 
 ```
