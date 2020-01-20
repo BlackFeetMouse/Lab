@@ -693,7 +693,7 @@ function getObjectsByNames(data, names){
 			}
 		}
 	}
-	return objects; 
+	return objects;
 
 }
  function toOrdinal(i){
@@ -711,7 +711,7 @@ function getObjectsByNames(data, names){
     return i + "th";
 }
 function getMin(data, variable){
-	return d3.min(data, function(d){return +d[variable];});
+	return d3.min(data, function(d){return +d[variable];});	//returns the minimum value in the given array using natural order
 
 }
 function getMax(data, variable){

@@ -59,7 +59,7 @@
     </div>
   <div class="row">
     <div class="leftcolumn">
-      <svg id="map"></svg>
+      <svg id="map"></svg>      <!--Map Part-->
     </div>
     <div class="rightcolumn">
         <p id="intro"></p>
@@ -79,6 +79,8 @@
       <!-- <li style="float: right;"> <a id="disclaimer"></a>></li> -->
     </ul>
   </div>
+
+
   <script>
     function openNav() {
       document.getElementById("mySidenav").style.width = "250px";
@@ -86,8 +88,9 @@
     function closeNav() {
       document.getElementById("mySidenav").style.width = "0";
     }
+      //<!------------------------------------------------------ 12/24 15:31-->
     $(document).ready(function(){
-        console.log("iMR loaded!");
+        console.log("iMR loaded!!!!!!!");
       //URL PARAMETERS 
       function getParameterByName(id, url) {
         if (!url) url = window.location.href;
@@ -130,8 +133,8 @@
 
     switch (id) {
       case "example1":
-        config = e1_config;
-        regions = usa_regions;
+        config = e1_config;		//config from file "config.js"
+        regions = usa_regions;	//regions from file "regions.js" 
         existNeighborsInfo = true;
         break;
       case "example2":
@@ -189,7 +192,8 @@
       var facts = analyse(data, config);
       generateNarrative(facts, config);
       var mindepVal = getMin(d, config.depVariable);
-      var maxdepVal = getMax(d, config.depVariable);
+      var maxdepVal = getMax(d, config.depVariable);    // the maximun devariable (ex. in config 1, maxdepVal is 184)
+      console.log('Mindepval is :' + mindepVal + '\nMaxdepval is :' + maxdepVal);  // can use this way to debug, print variable 
       var area = d3.scaleLinear().domain([mindepVal,maxdepVal]).range([1,225]);
       makeInlineDots(area);
     });
