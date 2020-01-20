@@ -1,7 +1,16 @@
 # Explorative Study 
+
+## Introducation
+
 To get an initial overview of what aspects to consider while summarizing basketball match's box score data, I 
 interviewed three basketball fans to let them summarize one NBA match's box score data 
-[Dallas Mavericks vs Los Angeles Lakers](https://global.espn.com/nba/boxscore?gameId=401160929) on December 1, 2019 
+Dallas Mavericks vs Los Angeles Lakers on December 1, 2019 
+
+- [Box Score Data](https://global.espn.com/nba/boxscore?gameId=401160929)
+- [Youtube Highlight](https://www.youtube.com/watch?v=RlAKp8GtQEw)
+- [News Report](https://www.ocregister.com/2019/12/01/lakers-fade-down-the-stretch-in-loss-to-luka-doncic-dallas-mavericks/)
+
+## Participants' game summaries
 
 ### Participant Michael:
 >Mavericks finished Los Angeles Lakers’ 10-game winning streak with a 114-100 victory.
