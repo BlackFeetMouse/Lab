@@ -70,11 +70,19 @@ Characteristics:
 - One of the participants analyze some players‘ abnormal performances.
 - One of the participants gave the summary in the structure of analyzing different factors of box score data.
 
-***Combined text in terms of four summaries***
+***Combined text in terms of four summaries with historcial data comparison(version 200123)***
+
+>The Mavs finished the Lakers’ 10-game winning streak with a 114-100 victory on 2 December 2019.
+>
+>Doncic from the Mavs and Davis from the Lakers had the highest 27 points following by Lebron from the Lakers with 25 points. Doncic had the highest 10 assists among two teams. Both of the lead players in two teams (Lebron and Doncic) had many turnovers. Kuzma from the Lakers and Green from the Lakers had low field-goal-percentage comparing with historical data. Besides, the scores from the Mavs’ bench players were much more than those from Lakers, which caused Lakers to overly reply on the lead players.
+>
+>The field goal attempts and field-goal percentage of two teams were similar, but, comparing with the Mavs’ 17 three-pointers out of 49 attempts, the Lakers only accomplished 7 three-pointers out of 27 attempts. In this season limiting the opponent's three-pointers has been a weakness of Lakers. In this game, the Lakers still had bad perimeter defense on this game to give Mavs so many three-pointers shooting chances. The Lakers had more turnovers than the Mavs. Even though in this season Lakers has a top-level center players configuration, in this game the Lakers only had 9 offensive rebounds while the Mavs took 16. Perhaps these flaws lead Lakers to loss. 
+
+***Combined text in terms of four summaries without historcial data comparison(version 191210)***
 
 >The Mavs finished the Lakers’ 10-game winning streak with a 114-100 victory.
 >
->Doncic from the Mavs and Davis from the Lakers had the highest 27 points following by Lebron from the Lakers with 25 points. >Doncic had the highest 10 assists among two teams. Both of the lead players in two teams (Lebron and Doncic) had many >turnovers. Kuzma from the Lakers and Green from the Lakers had low field-goal-percentage.
+>Doncic from the Mavs and Davis from the Lakers had the highest 27 points following by Lebron from the Lakers with 25 points. Doncic had the highest 10 assists among two teams. Both of the lead players in two teams (Lebron and Doncic) had many turnovers. Kuzma from the Lakers and Green from the Lakers had low field-goal-percentage.
 >
 >The field goal attempts and field-goal percentage of two teams are similar, but, comparing with the Mavs’ 17 three-pointers out of 49 attempts, the Lakers only accomplished 7 three-pointers out of 27 attempts. The Lakers had bad perimeter defense on this game to give Mavs so many three-pointers shooting chances. Lakers had more turnovers than Mavs. Besides, Mavs had 16 offensive rebounds while Lakers only had 9. Perhaps these flaws lead Lakers to loss. 
 
